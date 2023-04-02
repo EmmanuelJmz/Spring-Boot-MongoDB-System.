@@ -1,8 +1,6 @@
 package com.example.gym5b.models.users;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -18,4 +16,7 @@ public class Users {
     private int age;
     private String email;
     private String password;
+
+    public Users(String name, String lastName, int age, String email, String password) {
+    }
 }

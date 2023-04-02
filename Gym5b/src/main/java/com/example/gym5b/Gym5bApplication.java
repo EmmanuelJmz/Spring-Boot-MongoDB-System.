@@ -9,5 +9,5 @@ public class Gym5bApplication {
     public static void main(String[] args) {
         SpringApplication.run(Gym5bApplication.class, args);
     }
-
+    
 }
